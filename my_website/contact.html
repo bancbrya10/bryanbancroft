@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang = "en">
+<html>
+<head>
+	<title>Bryan Bancroft</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+		$(function(){
+			$(window).scroll(function(event) {
+				$("#header_fixed").css("margin-left", 0-$(document).scrollLeft());
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<div id="wrapper">
+		<header id="header_fixed">
+		Personal and Professional Development&nbsp&nbsp</br></br>
+		Bryan Bancroft&nbsp&nbsp
+		</header>
+		
+		<nav>
+			<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="post.html">Post Library</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a class="active" href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		
+		<main>
+		<h1>Contact</h1>
+		<h2>Email</h2>
+		bryanbancroft@gmail.com</br>
+		bryan.bancroft@temple.edu
+		<h2>LinkedIn</h2>
+		<a href="https://www.linkedin.com/in/bryan-bancroft-09b167128">https://www.linkedin.com/in/bryan-bancroft-09b167128</a>
+		</main>
+		
+		<footer>
+		2016
+		</footer>
+	</div>
+</body>

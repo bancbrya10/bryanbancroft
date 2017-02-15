@@ -1,0 +1,74 @@
+#wrapper{margin: 0 auto;
+		 width: 85%;
+		 min-width: 900px;
+		 background-color: transparent;
+		 color: #00153e;
+		 position: relative;}
+		 
+body{background-color: #ccfff2;
+	 font-family: Verdana, Arial, sans-serif;
+	 padding: 140px 0 0 0;
+	 min-width: 940px;}
+ 
+#header_fixed{background-color: #33cccc;
+			  color: #006666;
+			  font-size: 160%;
+			  padding: 20px 0 0 0;
+			  height: 130px;
+			  width: 84%;
+			  min-width:900px;
+			  background-repeat: no-repeat;
+			  text-align: right;
+			  background-image: url(media/tech.jpg);
+			  background-position: top-left;
+			  font-family: Verdana, Arial, sans-serif;
+			  font-weight: bold;
+			  position: fixed;
+			  top: 0;}
+
+		 
+h1{color: #006666;
+   font-family: Arial, sans-serif;
+   text-align: right;}
+		 
+h2{color: #33cccc;
+   font-family: Arial, sans-serif;}
+   
+main{background-color: #FFFFFF;
+	 color: #000000;
+	 padding: 20px 60px;
+	 overflow: auto;
+	 min-height: 500px;
+	 position: relative;}
+	 
+nav{background-color: #006666;
+	height: 59px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.4);}
+nav ul{list-style-type: none;
+	   padding: 0;
+	   margin: 0;
+	   display: inline-block;}
+nav li{float: left;}
+nav a{text-decoration: none;
+	  padding: 20px;
+	  background-color: #006666;
+	  font-weight: bold;
+	  display: block;}	 
+nav a:link{color: #FFFFFF;}	  
+nav a:visited{color: #EAEAEA;}
+nav a:hover{color: #33cccc;
+			background-color: #EAEAEA;}
+
+footer{font-size: 70%;
+	   text-align: center;
+	   padding: 10px;
+	   background-color: #33cccc;
+	   clear: both;
+	   border-radius: 0 0 25px 25px;}
+	   
+.active{background-color: #33cccc;}
